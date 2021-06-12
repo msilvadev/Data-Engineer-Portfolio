@@ -1,9 +1,3 @@
-![author](https://img.shields.io/badge/author-matheus-red.svg)]
-
-<p align="center">
-  <img src="banner.png" >
-</p>
-
 curl -s "https://get.sdkman.io" | bash
 
 source "$HOME/.sdkman/bin/sdkman-init.sh"
