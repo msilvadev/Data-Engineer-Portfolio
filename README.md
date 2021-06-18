@@ -27,5 +27,5 @@ My credentials include a Postgraduate in Distributed Software Architecture from 
 See the tutorials and published articles:
 
 <!-- * **[Title](link)** -->
-
+...
 ---
