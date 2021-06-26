@@ -26,7 +26,7 @@ The steps which I followed was:
 
 <h2 align="center">Schema for Song Play Analysis</h2>
 <p align="center">
-  <img src="sparkify_star_schema.png" width="644" height="757">
+  <img src="sparkify_star_schema.png" width="1124" height="773">
 </p>
 
 <h2 align="center">Detailing files from project</h2>
