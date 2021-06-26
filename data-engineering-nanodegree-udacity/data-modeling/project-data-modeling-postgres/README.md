@@ -106,3 +106,7 @@ Now follow steps:
       ````
       SELECT * FROM time LIMIT 5;
       ````
+
+      ````
+      SELECT * FROM songplays WHERE song_id is not null and artist_id is not null;
+      ````
