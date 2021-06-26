@@ -1,7 +1,6 @@
-[![author](https://img.shields.io/badge/author-matheus-red.svg)](https://www.linkedin.com/in/msilvadev/) ![](https://img.shields.io/badge/python-3-blue.svg)
+<h1 align="center">Data Modeling with Postgres</h1>
 
-# Data Modeling with Postgres
-
+[![author](https://img.shields.io/badge/author-matheus-red.svg)](https://www.linkedin.com/in/msilvadev/) ![](https://img.shields.io/badge/technology-python-blue.svg) ![](https://img.shields.io/badge/database-PostgreSQL-blue.svg)
 
 <h2 align="center">Summary</h2>
 
@@ -55,3 +54,49 @@ This file contains DDL to `DROP` and `CREATE` all necessary table. Also has DML 
 
 ### [test.ipynb](test.ipynb)
 Connects to the database and picked up the first rows of each table to allow you to check the data loaded.
+
+<h2 align="center">Running</h2>
+Required to have **Python 3** on the running machine. If you need to install it, you can check [here](https://www.python.org/downloads/)
+
+Check out if database PostgreSql is running.
+
+Now follow steps:
+  
+1. Create Tables
+    *  Run [create_tables](create_tables.py) which will make `DROP` and `CREATE` the necessary tables. PS: Open file and check host dbname user password
+        ```
+        python create_tables.py
+        ```
+
+2. ETL Pipeline
+    * Required that step 1 has been performed
+    * Run [etl.py](etl.py)
+      ```
+      python etl.py
+      ```
+      * This script will connect with local PostgreSql on a schema *sparkifydb*
+      * Will read and load all files from `data/song_data`
+      * Will read and load all files from `data/log_data`
+  
+3. Query data
+    * We can use [test.ipynb](test.ipynb) to execute `SELECT` in each table or execute the following querys in your favorite tool:
+  
+      ````
+      SELECT * FROM songplays LIMIT 5;
+      ````
+      
+      ````
+      SELECT * FROM users LIMIT 5;
+      ````
+      
+      ````
+      SELECT * FROM songs LIMIT 5;
+      ````
+
+      ````
+      SELECT * FROM artists LIMIT 5;
+      ````
+
+      ````
+      SELECT * FROM time LIMIT 5;
+      ````
