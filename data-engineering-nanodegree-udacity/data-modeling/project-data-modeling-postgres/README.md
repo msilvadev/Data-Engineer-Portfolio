@@ -61,7 +61,8 @@ Jupyter Notebook that performs makes data quality analysis in the data datasets 
 
 
 <h2 align="center">Running</h2>
-Required to have **Python 3** on the running machine. If you need to install it, you can check [here](https://www.python.org/downloads/)
+
+Required to have **Python 3** on the running machine. If you need to install it, you can download [here](https://www.python.org/downloads/).
 
 Check out if database PostgreSql is running.
 
