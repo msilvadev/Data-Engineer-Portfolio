@@ -1,6 +1,6 @@
-<h1 align="center">Data Modeling with Postgres</h1>
+<h1 align="center">Data Modeling with PostgreSQL</h1>
 
-[![author](https://img.shields.io/badge/author-matheus-red.svg)](https://www.linkedin.com/in/msilvadev/) ![](https://img.shields.io/badge/technology-python-blue.svg) ![](https://img.shields.io/badge/database-PostgreSQL-blue.svg)
+[![author](https://img.shields.io/badge/author-Matheus-red.svg)](https://www.linkedin.com/in/msilvadev/) ![](https://img.shields.io/badge/technology-Python-blue.svg) ![](https://img.shields.io/badge/database-PostgreSQL-blue.svg)
 
 <h2 align="center">Summary</h2>
 
@@ -54,6 +54,11 @@ This file contains DDL to `DROP` and `CREATE` all necessary table. Also has DML 
 
 ### [test.ipynb](test.ipynb)
 Connects to the database and picked up the first rows of each table to allow you to check the data loaded.
+
+### [data_quality_analysis.ipynb](data_quality_analysis.ipynb)
+Jupyter Notebook that performs makes data quality analysis in the data datasets used.
+
+
 
 <h2 align="center">Running</h2>
 Required to have **Python 3** on the running machine. If you need to install it, you can check [here](https://www.python.org/downloads/)
