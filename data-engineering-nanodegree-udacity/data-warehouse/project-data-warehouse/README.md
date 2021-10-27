@@ -14,7 +14,7 @@ I played the role of Data Engineer where I could apply what I've learned on data
 
 <h2 align="center">Detailing files from project</h2>
 
-### [create_tables](create_tables.py)
+### [create_cluster](create_cluster.py)
 Is where create a cluster Redshift.
 
 ### [create_tables](create_tables.py)
