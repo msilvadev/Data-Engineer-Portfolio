@@ -1,6 +1,9 @@
 <h1 align="center">Data Warehouse</h1>
 
-[![author](https://img.shields.io/badge/author-Matheus-red.svg)](https://www.linkedin.com/in/msilvadev/) ![](https://img.shields.io/badge/technology-Python-blue.svg)
+[![author](https://img.shields.io/badge/author-Matheus-red.svg)](https://www.linkedin.com/in/msilvadev/) 
+![](https://img.shields.io/badge/Technology-Python-blue.svg)
+![](https://img.shields.io/badge/Database-Redshift-blue.svg)
+![](https://img.shields.io/badge/Bucket-S3-yellow.svg)
 
 <h2 align="center">Summary</h2>
 
